@@ -231,7 +231,7 @@ const defaults = new Map(
     },
     // cloudflare logpush: developers.cloudflare.com/workers/platform/logpush
     LOGPUSH_SRC: {
-      type: "csv,of,subdomains",
+      type: "csv",
       // ex: pro,one,log,local,localhost
       // empty string means allow all hosts / sources
       default: "",
